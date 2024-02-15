@@ -65,6 +65,7 @@ color: var(--text);
     display: block;
     border-radius: 5px;
 padding: 20px 40px;
+margin-bottom: 150px;
 width: 255px;
 height: 67px;
 background-color: red;
@@ -80,5 +81,41 @@ letter-spacing: -0.03em;
 }
 .about-us-text{
     width: 1048px;
+    margin-left: 200px;
+}
+.main-image-card{
+    width: 1150px;
+    height: 603px;
     margin: 0% auto;
+}
+.image-about-us{
+    margin-bottom: 30px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: var(--text);
+}
+.image-card{
+    width: 1150px;
+    height: 450px;
+    margin-top: 30px;
+    margin: 0% auto;
+}
+.image-card-text{
+    margin-top: 15px;
+font-weight: 400;
+font-size: 30px;
+
+}
+.image-card-href{
+    display: block;
+    margin-top: 15px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+
+text-decoration: none;
+color: red;
 }
