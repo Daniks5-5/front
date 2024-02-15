@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ font-family: Manrope;
+ width: 100%;
+}
+
+.h1{
+    width: 956px;
+    height: 120px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: var(--text);
+padding-bottom: 30px;
+
+}
+.header-block{
+    width: 1150px;
+    margin: 0% auto;
+    height: 600px;
+}
+
+.image{
+width: 1150px;
+height: 500px;
+    background-image:url(../resources/Rectangle\ 1.png);
+background-size: cover;
+background-repeat: no-repeat    ;
+
+}
+.image-text{
+    position: absolute;
+    padding-top: 379px;
+    padding-left: 40px;
+    width: 430px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+.about{
+    margin-top: 150px;
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: var(--text);
+margin-bottom: 30px;
+
+}
+.about-us{
+width: 1048px;
+height: 366px;
+font-weight: 400;
+font-size: 45px;
+letter-spacing: -0.03em;
+color: var(--text);
+}
+.href{
+    display: block;
+    border-radius: 5px;
+padding: 20px 40px;
+width: 255px;
+height: 67px;
+background-color: red;
+color: #fff;
+text-align: center;
+cursor: pointer;
+text-decoration: none;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+letter-spacing: -0.03em;
+
+}
+.about-us-text{
+    width: 1048px;
+    margin: 0% auto;
+}
