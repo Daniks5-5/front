@@ -87,6 +87,7 @@ letter-spacing: -0.03em;
     width: 1150px;
     height: 603px;
     margin: 0% auto;
+    margin-bottom: 90px;
 }
 .image-about-us{
     margin-bottom: 30px;
@@ -112,6 +113,7 @@ font-size: 30px;
 .image-card-href{
     display: block;
     margin-top: 15px;
+    margin-bottom: 90px;
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
