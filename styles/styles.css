@@ -31,6 +31,7 @@ padding-bottom: 30px;
 .image{
 width: 1150px;
 height: 500px;
+position: relative;
     background-image:url(../resources/Rectangle\ 1.png);
 background-size: cover;
 background-repeat: no-repeat    ;
@@ -38,8 +39,8 @@ background-repeat: no-repeat    ;
 }
 .image-text{
     position: absolute;
-    padding-top: 379px;
-    padding-left: 40px;
+    bottom: 40px;
+    left: 40px;
     width: 430px;
     height: 81px;
     font-weight: 400;
