@@ -239,3 +239,25 @@ padding-bottom: 60px;
 .background-height{
     margin-bottom: 0px;
 }
+/*  блок с полноэкранной картинкой */
+.full-image{
+    height: 100vh;
+    background-image: url('../resources/Rectangle\ 13.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+.text-image-this{
+position: absolute;
+width: 443px;
+left: 125px;
+bottom: 60px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: -0.03em;
+color: #fff;  
+
+}
