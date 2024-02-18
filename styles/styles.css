@@ -5,9 +5,45 @@ body{
  font-family: Manrope;
  width: 100%;
 }
+.menu{
+    width: 1151.35px;
+    height: 25.18px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 70px;
+    display: flex;
+justify-content: space-between;
+}
+.logo{
+   
+    width: 126.89px;
+    height: 21.42px;
+    vertical-align: top;
+    
+}
+.text{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-text{
+    margin-right: 60px;
+    text-decoration: none;
+    line-height: 24.59px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: var(--text);
+}
+.text-end{
+    margin-right: 0px;
+}
+
 .main{
     width:1150px;
     margin: 0% auto;
+
 }
 
 .h1{
