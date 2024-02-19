@@ -259,5 +259,61 @@ font-weight: 400;
 font-size: 30px;
 letter-spacing: -0.03em;
 color: #fff;  
+}
+/*  контакты */
+.contacts{
+    width: 473px;
+    margin-left: 124px;
 
+   
+}
+.contacts-word{
+    position: relative;
+    margin-top: 186px;
+    width: 90px;
+    height: 25px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: var(--text);
+margin-bottom: 32px
+}
+/*  псевдо элемент */
+.contacts-word:before{
+content: '';
+position: absolute;
+display: block;
+bottom:32px;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url('../resources/ic_outline-phone-iphone.png');
+width: 24px;
+height: 24px;
+}
+.tel{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: var(--text);
+text-decoration: none;
+
+}
+.mail{
+    margin-top: 30px;
+    display: block;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: var(--text);
+opacity: 0.5;
+text-underline-offset: 10px;
+text-decoration-thickness: 2px;
+width: 406px;
+margin-bottom: 150px;
 }
