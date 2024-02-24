@@ -1,0 +1,156 @@
+@media (max-width: 1199px) {
+    /* .main-block{
+        padding-top: 73px;
+        padding-right: 17px;
+        padding-left: 15px;
+    } */
+}
+
+@media (max-width: 1149px) {
+    .main-block {
+        width: 100%;
+    }
+    .main {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .header-block {
+        width: 100%;
+    }
+    .h1 {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+        height: 400px;
+    }
+    .image-text {
+    }
+    /*  блок о нас */
+    .main-about-us {
+        width: 100%;
+        margin: 0% auto;
+        padding-left: 17px;
+    }
+    .about-us-text {
+        width: 100%;
+        
+    }
+    .about {
+        width: 100%;
+        font-size: 18px;
+    }
+    .about-us {
+        width: 100%;
+        font-size: 45px;
+
+    }
+    .href {
+        width: 30%;
+
+    }
+}
+
+@media (max-width: 960px) {
+    .main-block {
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+    .main {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .header-block {
+        width: 100%;
+    }
+    .h1 {
+        width: 84%;
+        font-size: 50px;
+    }
+    .image {
+        width: 100%;
+        height: 400px;
+    }
+    .image-text {
+        font-size: 20px;
+    }
+}
+/*  блок о нас */
+.main-about-us {
+    width: 100%;
+    margin: 0% auto;
+    padding-left: 17px;
+}
+.about-us-text {
+    width: 100%;
+    
+}
+.about {
+    width: 100%;
+    font-size: 18px;
+}
+.about-us {
+    width: 60%;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+.href {
+    width: 30%;
+
+}
+
+@media (max-width: 576px) {
+
+    .main-block {
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 12px;
+    }
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header-block {
+        width: 100%;
+    }
+    .h1 {
+        width: 89%;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .image {
+        width: 100%;
+        height: 304px;
+    }
+    .image-text {
+        width: 70%;
+        font-size: 16px;
+    }
+    /*  блок о нас */
+.main-about-us {
+    width: 100%;
+    margin: 0% auto;
+    padding-left: 12px;
+}
+.about-us-text {
+    width: 100%;
+    
+}
+.about {
+    width: 100%;
+    font-size: 14px;
+}
+.about-us {
+    width: 100%;
+    font-size: 22px;
+    margin-bottom: 30px;
+
+}
+.href {
+    width: 50%;
+
+}
+
+}
