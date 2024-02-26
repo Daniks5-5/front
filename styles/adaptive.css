@@ -13,7 +13,7 @@
     .main {
         width: 100%;
         margin: 0 auto;
-        padding-left: 17px;
+        
     }
     .header-block {
         width: 100%;
@@ -63,6 +63,7 @@
     }
     .image-card {
         width: 100%;
+        padding-right: 15px;
     }
     .image-card-text {
         font-size: 25px;
@@ -130,11 +131,13 @@
 .main-card-images {
     margin-top: 80px;
     padding-left: 15px;
+    padding-right: 15px;
     margin: 0% auto;
 
 }
 .main-image-card {
     margin-top: 80px;
+    padding-right: 15px;
 }
 .image-about-us {
     
@@ -219,6 +222,7 @@
 .main-card-images {
     padding-left: 13px;
     margin: 0% auto;
+    padding-right: 13px;
 
 }
 .main-image-card {
