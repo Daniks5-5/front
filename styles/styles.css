@@ -140,7 +140,6 @@ transition: all 1s ease;
 /*  блок с проектами */
 .main-image-card{
     width: 1150px;
-    height: 603px;
     margin: 0% auto;
     margin-bottom: 90px;
 }
@@ -155,7 +154,6 @@ color: var(--text);
 }
 .image-card{
     width: 1150px;
-    height: 450px;
     margin-top: 30px;
     margin: 0% auto;
 }
@@ -177,9 +175,8 @@ text-decoration: none;
 color: red;
 }
 .href-more-work{
-
+    margin: 0% auto;
     width: 1150px;
-    height: 153px;
     margin-bottom: 150px;
 }
 .href-work{
