@@ -52,7 +52,6 @@ color: var(--text);
 
 .h1{
     width: 956px;
-    height: 120px;
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 60px;
@@ -88,6 +87,9 @@ background-repeat: no-repeat    ;
     letter-spacing: -0.03em;
     color: #fff;
 }
+.about-us-text{
+    margin: 0% auto;
+}
 .about{
     margin-top: 150px;
 font-weight: 400;
@@ -99,11 +101,12 @@ margin-bottom: 30px;
 
 }
 .about-us{
-width: 1048px;
+width: 1150px;
 font-weight: 400;
 font-size: 45px;
 letter-spacing: -0.03em;
 color: var(--text);
+margin-bottom: 30px;
 }
 .href{
     display: block;
@@ -132,7 +135,7 @@ transition: all 1s ease;
 
 }
 .about-us-text{
-    width: 1048px;
+    width: 1150px;
 }
 /*  блок с проектами */
 .main-image-card{

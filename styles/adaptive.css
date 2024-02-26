@@ -75,8 +75,7 @@
     .image-text {
         font-size: 20px;
     }
-}
-/*  блок о нас */
+    /*  блок о нас */
 .main-about-us {
     width: 100%;
     margin: 0% auto;
@@ -91,7 +90,7 @@
     font-size: 18px;
 }
 .about-us {
-    width: 60%;
+    /* width: 60%; */
     font-size: 35px;
     margin-bottom: 30px;
 
@@ -100,6 +99,8 @@
     width: 30%;
 
 }
+}
+
 
 @media (max-width: 576px) {
 
@@ -140,6 +141,7 @@
 }
 .about {
     width: 100%;
+    margin-top: 80px;
     font-size: 14px;
 }
 .about-us {
@@ -149,7 +151,10 @@
 
 }
 .href {
-    width: 50%;
+    width: 90%;
+    margin: 0% auto;
+   
+   
 
 }
 
