@@ -76,7 +76,7 @@
     }
     .href-work {
     }
-}
+
 
 @media (max-width: 960px) {
 
@@ -218,7 +218,7 @@
 }
 .href {
     width: 90%;
-    margin: 0% auto;
+  
 }
 /*   блок проекты */
 .main-card-images {
