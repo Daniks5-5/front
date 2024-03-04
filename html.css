@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    /*  плавный скролл */
+    scroll-behavior: smooth;
+}
+
+body{
+ font-family: Manrope;
+ width: 100%;
+}
+.background-cards-block{
+    background: black;
+}
+.background{
+    width: 90%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* width: calc(50% - 10px); */
+}
+
+.cards-block:first-child{
+    margin-bottom: 80px;
+}
+.card-block {
+}
+.card-image {
+}
+.photo {
+}
+.card-text {
+   
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: -0.03em;
+color: #fff;
+}
+.card-text-margin{
+    margin-bottom: 80px;
+}
+
+/* 
+.photo{
+    display: flex;
+    width: calc(50% - 10px);
+    height: 389px;
+  
+    justify-content: space-between;
+    
+ 
+  
+   
+} */
