@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    /*  плавный скролл */
+    scroll-behavior: smooth;
+}
+
+body{
+ font-family: Manrope;
+ width: 100%;
+}
+.background{
+    width: 1150px;
+}
+
+.img{
+   
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.photo{
+    width: calc(50% - 20px);
+    height: 389px;
+    display: flex;
+    
+    
+}
