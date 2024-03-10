@@ -8,7 +8,7 @@
 
 @media (max-width: 1149px) {
    
-    }
+    
     .main {
        padding-left: 17px;
         margin: 0 auto;
@@ -76,17 +76,52 @@
     }
     .href-work {
     }
+    /* блок с услугами */
+    .back {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    .content {
+        padding-left: 10px;
+        margin: 0% auto;
+    }
+    .service {
+    }
+    .content_photo {
+    }
+    .content_photo_flex {
+    }
+    .card_1 {
+    }
+    .photo_1 {
+        width: 460px;
+    }
+    .on_photo {
+    }
+    .text_on_photo {
+    }
+    .photo_1_text {
+    }
+    .on_photo_dop {
+    }
+    .photo_2_text {
+    }
+    .service-link {
+        width: 100%;
+        padding-left: 29px;
+        padding-right: 23px;
+        margin-top: 80px;
+    }
+    .service-link-text {
+    }
+}
 
-
-@media (max-width: 960px) {
-
-       
+@media (max-width: 960px) {      
     .main {
-      
         margin: 0 auto;
         padding-left: 17px;
         padding-right: 15px;
-    }
     }
     .header-block {
         width: 100%;
@@ -96,8 +131,7 @@
         font-size: 50px;
     }
     .image {
-        width: 100%;
-       
+        width: 100%;   
     }
     .image-text {
         font-size: 20px;
@@ -108,10 +142,6 @@
     margin: 0% auto;
     padding-left: 17px;
 }
-.about-us-text {
-
-    
-}
 .about {
     width: 100%;
     font-size: 18px;
@@ -120,13 +150,6 @@
     /* width: 60%; */
     font-size: 35px;
     margin-bottom: 30px;
-
-
-}
-.href {
-   
-   
-
 }
 /*   блок проекты */
 .main-card-images {
@@ -134,14 +157,12 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0% auto;
-
 }
 .main-image-card {
     margin-top: 80px;
     padding-right: 15px;
 }
 .image-about-us {
-    
     font-size: 18px;
 }
 .image-card {
@@ -149,21 +170,50 @@
 }
 .image-card-text {
     font-size: 25px;
-    
 }
 .image-card-href {
     font-size: 20px;
     margin-bottom: 80px;
-   
 }
 .href-more-work {
     padding-left: 15px;
     height: 80px;
 }
 .href-work {
-       font-size: 30px;
-   
+       font-size: 30px;  
 }
+/*  услуги */
+.back {
+}
+.content {
+    width: 930px;
+    margin: 0% auto;
+}
+.service {
+}
+.photo_1 {
+    max-width: 460px;
+    width: 400px;
+}
+
+.text_on_photo {
+}
+.photo_1_text {
+    font-size: 25px;
+}
+.on_photo_dop {
+}
+.photo_2_text {
+}
+.service-link {
+}
+.service-link-text {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 10px;
+}
+}
+
 
 
 
@@ -243,7 +293,6 @@
 }
 .image-card-href {
     font-size: 16px;
-   
 }
 .href-more-work {
     padding-left: 13px;
@@ -251,8 +300,52 @@
     width: 100%;
     
 }
-.href-work {
-
+/* блок с услугами*/
+.back {
+}
+.content {
+   
+    margin: 0% auto;
+}
+.service {
+    font-size: 14px;
+}
+.content_photo {
+    flex-direction: column;
+}
+.content_photo_flex {
+    flex-direction: column;
+}
+.card_1 {
+}
+.photo_1 {
+    width: 350px;
+}
+.on_photo {
+    width: 123px;
+    height: 30px;
+}
+.text_on_photo {
+    font-size: 14px;
+}
+.photo_1_text {
+}
+.on_photo_dop {
+    width: 148px;
+    height: 30px;
+}
+.photo_2_text {
+    margin-bottom: 60px;
+}
+.service-link {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.service-link-text {
+    left: 10px;
+    top: 45px;
+    text-align: center;
 }
 
 }
