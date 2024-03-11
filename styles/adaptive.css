@@ -213,8 +213,106 @@
     padding-right: 10px;
 }
 }
-
-
+@media(max-width:860px) {
+    .back {
+    }
+    .content {
+        width: 650px;
+        margin: 0% auto;
+    }
+    .service {
+        font-size: 14px;
+    }
+    .content_photo {
+       
+    }
+    .content_photo_flex {
+       
+    }
+    .card_1 {
+    }
+    .photo_1 {
+        width: 350px;
+    }
+    .on_photo {
+        width: 123px;
+        height: 30px;
+    }
+    .text_on_photo {
+        font-size: 14px;
+    }
+    .photo_1_text {
+    }
+    .on_photo_dop {
+        width: 148px;
+        height: 30px;
+    }
+    .photo_2_text {
+        margin-bottom: 60px;
+    }
+    .service-link {
+        width: 60%;
+        height: 140px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .service-link-text {
+        left: 10px;
+        top: 45px;
+        text-align: center;
+    }
+    
+}
+@media(max-width:750px) {
+    .back {
+    }
+    .content {
+       width: 650px;
+        margin: 0% auto;
+    }
+    .service {
+        font-size: 14px;
+    }
+    .content_photo {
+        flex-direction: column;
+    }
+    .content_photo_flex {
+        flex-direction: column;
+    }
+    .card_1 {
+    }
+    .photo_1 {
+        width: 350px;
+    }
+    .on_photo {
+        width: 123px;
+        height: 30px;
+    }
+    .text_on_photo {
+        font-size: 14px;
+    }
+    .photo_1_text {
+    }
+    .on_photo_dop {
+        width: 148px;
+        height: 30px;
+    }
+    .photo_2_text {
+        margin-bottom: 60px;
+    }
+    .service-link {
+        width: 40%;
+        height: 90px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .service-link-text {
+        left: 10px;
+        top: 25px;
+        text-align: center;
+    }
+    
+}
 
 
 @media (max-width: 576px) {
