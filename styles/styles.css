@@ -246,6 +246,7 @@ color: #fff;
 .photo_1{
     width: 569px;
     margin-bottom: 25px;
+    flex-grow: 1;
 }
 .on_photo{
     top:31px;
@@ -431,4 +432,57 @@ font-size: 20px;
 letter-spacing: -0.03em;
 color: #fff;
 opacity: 0.5;
+}
+/*  отзывы */
+.review-wrapper{
+    width: 1150px;
+    margin: 0% auto;
+}
+.service-wrapper{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #121212;
+}
+.row-review{
+    display: flex;
+    flex-direction: row;
+
+}
+.col-review{
+    display: flex;
+    flex-direction: column;
+    margin-right: 51px;
+}
+.people-name{
+    margin-bottom: 14px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 45px;
+letter-spacing: -0.03em;
+color: #000;
+}
+.people-text{
+    margin-bottom: 50px;
+    width: 100%;
+    line-height: 1.2em;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 22px;
+letter-spacing: -0.03em;
+color: #000;
+}
+.people-text-end{
+    width: 80%;
+    margin-bottom: 150px;
+    line-height: 1.2em;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 22px;
+letter-spacing: -0.03em;
+color: #000;
 }
