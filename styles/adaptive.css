@@ -86,21 +86,28 @@
     /*  блок с отзывами */
     .review-wrapper {
         width: 1150px;
+        padding-left: 16px;
         margin: 0% auto;
     }
     .service {
+
     }
     .service-wrapper {
+        margin-top: 117px;
     }
     .row-review {
     }
     .col-review {
     }
     .people-name {
+        font-size: 35px;
     }
     .people-text {
+        font-size: 20px;
+        margin-bottom: 80px;
     }
     .people-text-end {
+        margin-bottom: 120px;
     }
 }
 
@@ -188,6 +195,34 @@
     padding-left: 13px;
     padding-right: 10px;
 }
+/* блок с отзывами  */
+.review-wrapper {
+    max-width: 800px;
+   max-width: 900px;
+    padding-left: 16px;
+    margin: 0% auto;
+}
+.service {
+
+}
+.service-wrapper {
+    margin-top: 117px;
+}
+.row-review {
+}
+.col-review {
+}
+.people-name {
+    font-size: 35px;
+}
+.people-text {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.people-text-end {
+    margin-bottom: 120px;
+}
+
 }
 @media(max-width:860px) {
     .content {
@@ -227,7 +262,34 @@
         top: 45px;
         text-align: center;
     }
-    
+   /* блок с отзывами  */
+.review-wrapper {
+    max-width: 800px;
+   max-width: 900px;
+    padding-left: 16px;
+    margin: 0% auto;
+}
+.service {
+
+}
+.service-wrapper {
+    margin-top: 117px;
+}
+.row-review {
+}
+.col-review {
+}
+.people-name {
+    font-size: 35px;
+}
+.people-text {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.people-text-end {
+    margin-bottom: 120px;
+}
+
 }
 @media(min-width:577px) and (max-width:800px) {
   
@@ -273,6 +335,39 @@
         top: 25px;
         text-align: center;
     }
+     /* блок с отзывами  */
+.review-wrapper {
+    max-width: 760px;
+    min-width: 500px;
+    padding-left: 16px;
+    margin: 0% auto;
+}
+.service {
+
+}
+.service-wrapper {
+    margin-top: 80px;
+}
+.row-review {
+    flex-direction: column;
+}
+.col-review {
+}
+.people-name {
+    font-size: 25px;
+}
+.people-text {
+    width: 349px;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+.people-text-end {
+    margin-bottom: 80px;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+    
     
 }
 
@@ -402,5 +497,37 @@
     top: 45px;
     text-align: center;
 }
+    /* блок с отзывами  */
+    .review-wrapper {
+        max-width: 500px;
+        min-width: 300px;
+        padding-left: 16px;
+        padding-right: 13px;
+        margin: 0% auto;
+    }
+    .service {
+    margin-top: 80px;
+    }
+    .service-wrapper {
+        margin-top: 80px;
+    }
+    .row-review {
+        flex-direction: column;
+    }
+    .col-review {
+    }
+    .people-name {
+        font-size: 25px;
+    }
+    .people-text {
+        width: 349px;
+        font-size: 16px;
+        margin-bottom: 80px;
+    }
+    .people-text-end {
+        margin-bottom: 80px;
+        font-size: 16px;
+        margin-bottom: 80px;
+    }
 
 }
