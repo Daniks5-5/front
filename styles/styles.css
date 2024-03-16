@@ -299,9 +299,10 @@ margin-bottom: 86px;
    
 }
 .service-link-text{
-    position: absolute;
-   left: 462px;
-    bottom:56px;
+
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 30px;
