@@ -368,6 +368,13 @@ color: #fff;
 .photo__3{
     background-color: aqua;
 }
+
+.gallery-control{
+    position: absolute;
+    width: 100%;
+    left:115px;
+    bottom: 162px;
+}
 /*  контакты */
 .contacts{
     width: 473px;
