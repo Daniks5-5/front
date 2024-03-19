@@ -332,6 +332,14 @@ font-size: 30px;
 letter-spacing: -0.03em;
 color: #fff;  
 } */
+.gallery{
+    position: relative;
+}
+.gallery-title{
+    position: absolute;
+    color: #fff;
+    z-index: 100; /* для помещения элемента выше чем другие элементы с значением position:absolute; 100-показывает что оно должно быть выше */
+}
 .gallery-slydes{
     height: 717px;
     position: relative;
