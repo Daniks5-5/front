@@ -312,15 +312,15 @@ color: #fff;
 text-decoration: none;
 }
 /*  блок с полноэкранной картинкой */
-.full-image{
-    height: 100vh;
+/* .full-image{ */
+    /* height: 100vh;
     background-image: url('../resources/Rectangle\ 13.png');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: relative; */
 
 
-}
+/* }
 .text-image-this{
 position: absolute;
 width: 443px;
@@ -331,13 +331,25 @@ font-weight: 400;
 font-size: 30px;
 letter-spacing: -0.03em;
 color: #fff;  
-}
-
-.gallery-slide{
+} */
+.gallery-slydes{
     height: 717px;
+    position: relative;
+}
+.gallery-slide{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.gallery-slide-active{ /* для создания переключения */
+ opacity: 1;
 }
 .photo-slider{
     height: 100%;
+
 }
  .photo__1{
     background-color: rebeccapurple;
