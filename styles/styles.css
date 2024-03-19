@@ -332,6 +332,22 @@ font-size: 30px;
 letter-spacing: -0.03em;
 color: #fff;  
 }
+
+.gallery-slide{
+    height: 717px;
+}
+.photo-slider{
+    height: 100%;
+}
+ .photo__1{
+    background-color: rebeccapurple;
+ }   
+ .photo__2{
+    background-color: #AD1818;
+ }
+.photo__3{
+    background-color: aqua;
+}
 /*  контакты */
 .contacts{
     width: 473px;
