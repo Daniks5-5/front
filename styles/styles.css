@@ -332,8 +332,13 @@ font-size: 30px;
 letter-spacing: -0.03em;
 color: #fff;  
 } */
+.gallery-section{
+    padding-bottom: 150px;
+}
 .gallery{
+    margin-bottom: 150px;
     position: relative;
+   
 }
 .gallery-wrapper{
     position: absolute;
@@ -344,11 +349,18 @@ color: #fff;
 }
 .gallery-title{
     color: #fff;
-    z-index: 100; /* для помещения элемента выше чем другие элементы с значением position:absolute; 100-показывает что оно должно быть выше */
+    z-index: 100;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 22px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #fff; /* для помещения элемента выше чем другие элементы с значением position:absolute; 100-показывает что оно должно быть выше */
 }
 .gallery-slydes{
     height: 717px;
     position: relative;
+   
 }
 .gallery-slide{
     position: absolute;
@@ -366,25 +378,62 @@ color: #fff;
 
 }
  .photo__1{
-    background-color: rebeccapurple;
+    height: 100vh;
+    background-image: url('../resources/Rectangle\ 13.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .slider-text1{
+    width: 443px;
+ }
+ .slider-text{
+    position:absolute;
+   top:750px;
+    left:125px;
+    line-height: 50px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: -0.03em;
+color: #fff;
  }   
  .photo__2{
-    background-color: #AD1818;
+    height: 100vh;
+    background-image: url('../resources/Rectangle\ 14.png');
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 .photo__3{
-    background-color: aqua;
+    height: 100vh;
+    background-image: url('../resources/Rectangle\ 15.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo__4{
+    height: 100vh;
+    background-image: url('../resources/Rectangle\ 16.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .control-wrapper{
     position: absolute;
     width: 100%;
-    bottom: 50%;
+    left: 115px;
+    top:650px;
+    
 }
 
 .gallery-control{
     display: flex;
-    justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
+}
+.control-prev{
+    height: 40px;
+}
+.control-next{
+    height: 40px;
 }
 /*  контакты */
 .contacts{
