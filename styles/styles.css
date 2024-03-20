@@ -374,11 +374,13 @@ color: #fff;
 .photo__3{
     background-color: aqua;
 }
-
-.gallery-control{
+.control-wrapper{
     position: absolute;
     width: 100%;
     bottom: 50%;
+}
+
+.gallery-control{
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
