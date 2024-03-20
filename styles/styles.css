@@ -372,8 +372,11 @@ color: #fff;
 .gallery-control{
     position: absolute;
     width: 100%;
-    left:115px;
-    bottom: 162px;
+    bottom: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 /*  контакты */
 .contacts{
