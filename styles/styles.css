@@ -335,8 +335,14 @@ color: #fff;
 .gallery{
     position: relative;
 }
-.gallery-title{
+.gallery-wrapper{
     position: absolute;
+    color: #fff;
+    z-index: 100; 
+    left: 124px;
+    top:60px;
+}
+.gallery-title{
     color: #fff;
     z-index: 100; /* для помещения элемента выше чем другие элементы с значением position:absolute; 100-показывает что оно должно быть выше */
 }
