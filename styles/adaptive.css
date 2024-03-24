@@ -89,15 +89,8 @@
         padding-left: 16px;
         margin: 0% auto;
     }
-    .service {
-
-    }
     .service-wrapper {
         margin-top: 117px;
-    }
-    .row-review {
-    }
-    .col-review {
     }
     .people-name {
         font-size: 35px;
@@ -109,6 +102,43 @@
     .people-text-end {
         margin-bottom: 120px;
     }
+    /*  контакты */
+.contacts{
+    width: 1150px;
+    margin-left: 124px;
+}
+.contacts-word{
+    width: 90px;
+    height: 25px;
+font-size: 18px;
+margin-bottom: 32px
+}
+/*  псевдо элемент */
+.contacts-word:after{
+bottom:-49px;
+width: 24px;
+height: 24px;
+}
+.contacts-word:before{
+    bottom: -49px;
+    left: 560px;
+    width: 20px;
+    height: 16px;
+    }
+.position-contacts{
+    margin-top: 74px;
+display: flex;
+gap:104px;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.tel{
+font-size: 60px;
+}
+.mail{
+font-size: 60px;
+margin-bottom: 150px;
+}
 }
 
 @media (min-width: 861px) and (max-width:1110px) {      
@@ -202,16 +232,11 @@
     padding-left: 16px;
     margin: 0% auto;
 }
-.service {
 
-}
 .service-wrapper {
     margin-top: 117px;
 }
-.row-review {
-}
-.col-review {
-}
+
 .people-name {
     font-size: 35px;
 }
@@ -221,6 +246,44 @@
 }
 .people-text-end {
     margin-bottom: 120px;
+}
+/* контакты */
+.contacts{
+    width: 100%;
+    margin-left: 16px;
+    right: 10px;
+}
+.contacts-word{
+    width: 90px;
+    height: 25px;
+font-size: 18px;
+margin-bottom: 32px
+}
+/*  псевдо элемент */
+.contacts-word:after{
+bottom:-49px;
+width: 24px;
+height: 24px;
+}
+.contacts-word:before{
+    bottom: -49px;
+    left: 450px;
+    width: 20px;
+    height: 16px;
+    }
+.position-contacts{
+    margin-top: 74px;
+display: flex;
+gap:104px;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.tel{
+font-size: 45px;
+}
+.mail{
+font-size: 45px;
+margin-bottom: 80px;
 }
 
 }
@@ -269,16 +332,10 @@
     padding-left: 16px;
     margin: 0% auto;
 }
-.service {
-
-}
 .service-wrapper {
     margin-top: 117px;
 }
-.row-review {
-}
-.col-review {
-}
+
 .people-name {
     font-size: 35px;
 }
@@ -289,6 +346,45 @@
 .people-text-end {
     margin-bottom: 120px;
 }
+/* контакты */
+.contacts{
+    width: 100%;
+    margin-left: 16px;
+    right: 10px;
+}
+.contacts-word{
+    width: 90px;
+    height: 25px;
+font-size: 18px;
+margin-bottom: 32px
+}
+/*  псевдо элемент */
+.contacts-word:after{
+bottom:-49px;
+width: 24px;
+height: 24px;
+}
+.contacts-word:before{
+    bottom: -150px;
+    left:1px;
+    width: 20px;
+    height: 16px;
+    }
+.position-contacts{
+    margin-top: 74px;
+display: flex;
+gap:104px;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.tel{
+font-size: 35px;
+}
+.mail{
+font-size: 35px;
+margin-bottom: 80px;
+}
+
 
 }
 @media(min-width:577px) and (max-width:800px) {
@@ -342,16 +438,11 @@
     padding-left: 16px;
     margin: 0% auto;
 }
-.service {
-
-}
 .service-wrapper {
     margin-top: 80px;
 }
 .row-review {
     flex-direction: column;
-}
-.col-review {
 }
 .people-name {
     font-size: 25px;
@@ -365,6 +456,43 @@
     margin-bottom: 80px;
     font-size: 16px;
     margin-bottom: 80px;
+}
+.contacts{
+    width: 100%;
+    margin-left: 16px;
+    right: 10px;
+}
+.contacts-word{
+    width: 90px;
+    height: 25px;
+font-size: 18px;
+margin-bottom: 32px
+}
+/*  псевдо элемент */
+.contacts-word:after{
+bottom:-49px;
+width: 24px;
+height: 24px;
+}
+.contacts-word:before{
+    bottom: -150px;
+    left:1px;
+    width: 20px;
+    height: 16px;
+    }
+.position-contacts{
+    margin-top: 74px;
+display: flex;
+gap:104px;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.tel{
+font-size: 35px;
+}
+.mail{
+font-size: 35px;
+margin-bottom: 80px;
 }
 
     
@@ -528,6 +656,43 @@
         margin-bottom: 80px;
         font-size: 16px;
         margin-bottom: 80px;
+    }
+    .contacts{
+        width: 100%;
+        margin-left: 16px;
+        right: 10px;
+    }
+    .contacts-word{
+        width: 90px;
+        height: 25px;
+    font-size: 18px;
+    margin-bottom: 32px
+    }
+    /*  псевдо элемент */
+    .contacts-word:after{
+    bottom:-49px;
+    width: 24px;
+    height: 24px;
+    }
+    .contacts-word:before{
+        bottom: -150px;
+        left:1px;
+        width: 20px;
+        height: 16px;
+        }
+    .position-contacts{
+        margin-top: 74px;
+    display: flex;
+    gap:104px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+    .tel{
+    font-size: 35px;
+    }
+    .mail{
+    font-size: 35px;
+    margin-bottom: 80px;
     }
 
 }
