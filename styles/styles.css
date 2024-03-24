@@ -7,6 +7,8 @@
 body{
  font-family: Manrope;
  width: 100%;
+ max-width: 100%;
+ overflow-x: hidden;
 }
 /*  меню */
 .menu{
@@ -437,14 +439,11 @@ color: #fff;
 }
 /*  контакты */
 .contacts{
-    width: 473px;
+    width: 1150px;
     margin-left: 124px;
-
-   
 }
 .contacts-word{
     position: relative;
-    margin-top: 186px;
     width: 90px;
     height: 25px;
     font-family: var(--font-family);
@@ -456,18 +455,38 @@ color: var(--text);
 margin-bottom: 32px
 }
 /*  псевдо элемент */
-.contacts-word:before{
+.contacts-word:after{
 content: '';
 position: absolute;
 display: block;
-bottom:32px;
+bottom:-49px;
 background-size: cover;
 background-repeat: no-repeat;
 background-image: url('../resources/ic_outline-phone-iphone.png');
 width: 24px;
 height: 24px;
 }
+.contacts-word:before{
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -49px;
+    left: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../resources/mail.png');
+    width: 20px;
+    height: 16px;
+    }
+.position-contacts{
+    margin-top: 74px;
+display: flex;
+gap:104px;
+flex-wrap: wrap;
+flex-direction: row;
+}
 .tel{
+    display: flex;
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 60px;
@@ -478,7 +497,8 @@ text-decoration: none;
 
 }
 .mail{
-    margin-top: 30px;
+    display: flex;
+ 
     display: block;
     font-family: var(--font-family);
 font-weight: 400;
