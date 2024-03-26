@@ -322,10 +322,10 @@ background: #ad1818;
   display: flex;
 }
 .popup_content{
+    position: relative;
     width: 777px;
     height: 708px;
     border-radius: 10px;
-  
     background-color: #fff;
 }
 
