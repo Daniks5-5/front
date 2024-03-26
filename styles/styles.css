@@ -8,7 +8,10 @@ body{
  font-family: Manrope;
  width: 100%;
  max-width: 100%;
- overflow-x: hidden;
+ overflow-x: hidden; 
+}
+.body_fixed{
+     overflow: hidden; /* чтобы при окрытие выплываюещего окна не было скролла */
 }
 /*  меню */
 .menu{
