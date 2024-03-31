@@ -348,8 +348,6 @@ margin-bottom: 80px;
     .text_on_photo {
         font-size: 14px;
     }
-    .photo_1_text {
-    }
     .on_photo_dop {
         width: 148px;
         height: 30px;
@@ -497,6 +495,7 @@ padding-right: 80px;
         padding-right: 10px;
     }
     .service-link-text {
+        width: 100%;
         padding-top: 25px;
         left: 10px;
         top: 25px;
@@ -719,6 +718,7 @@ padding-right: 80px;
     padding-right: 10px;
 }
 .service-link-text {
+    width: 100%;
     padding-top: 50px;
     left: 10px;
     top: 45px;
@@ -799,14 +799,16 @@ padding-right: 80px;
     height: 408px;
 }
 .slider-text {
+    width: 287px;
     right: 20px;
-    left: 80px;
+    left: 10px;
     font-size: 20px;
-    top:500px;
+    top:250px;
 }
 .control-wrapper {
-    left: 50px;
-    top:450px;
+    position: absolute;
+    left: 20px;
+    top:200px;
 }
 .gallery-control{
 justify-content: space-between;
