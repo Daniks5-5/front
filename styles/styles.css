@@ -310,6 +310,7 @@ background: #ad1818;
 }
 /* popup */
 .popup{
+    
     position: fixed;
     top:0;
     left: 0;
@@ -337,6 +338,84 @@ background: #ad1818;
     overflow-y:scroll;
     border-radius: 10px;
     background-color: #fff;
+    overflow-y:hidden;  /*для вертикального*/
+overflow-x:hidden;
+}
+/* ввод данных в popup */
+.popup_text{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.popup_title{
+    top:99px;
+    left:222px;
+    position: absolute;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 45px;
+letter-spacing: -0.03em;
+text-align: center;
+color: #000;
+
+}
+.popup_title_h2{
+    top:159px;
+    left: 167px;
+    position: absolute;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.03em;
+text-align: center;
+color: #000;
+
+}
+.input-flex {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 0% auto;
+    top:243px;
+
+}
+.input {
+    width: 100%;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 25px;
+letter-spacing: -0.03em;
+color: #000;
+opacity: 0.5;
+    margin-left: 55px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.input:focus{
+    outline: none;
+}
+.popup_button{
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    border-radius: 5px;
+padding: 20px 40px;
+width: 644px;
+height: 67px;
+background: #ad1818;
+bottom: 86px;
+left: 59px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+letter-spacing: -0.03em;
+color: #fff;
 }
 
 

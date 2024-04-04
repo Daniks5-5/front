@@ -142,9 +142,18 @@
 <!--popup -->
 <div class="popup js-popup">
     <div class="js-popup_content popup_content">
-        <h1 class="popup_title">Имя</h1>
+        <div class="popup-text">
+            <h1 class="popup_title">Заказать услугу</h1>
+            <h2 class="popup_title_h2">Заполните форму, мы свяжемся с вами в течение суток</h2>
+        </div>
         <!-- разметка полей ввода-->
-        <input type="text" class="input" placeholder="Имя">
+        <div class="input-flex">
+            <input type="text" class="input" placeholder="Имя">
+            <input type="email" class="input" placeholder="Электронная почта">
+            <input type="tel" class="input" placeholder="Номер телефона">
+        </div>
+        <button class="popup_button">Отправить</button>
+        
 
 
         <div class="js-popup_close-btn popup_close-btn"> <!-- закрытие окна popup-->
