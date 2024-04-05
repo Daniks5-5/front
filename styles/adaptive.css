@@ -822,6 +822,34 @@ padding-right: 80px;
     top:450px;
     right: 30px;
 }
+.popup {
+    width: 100%;
+   
+}
+.popup_content {
+    width: 100%;
+
+}
+.popup-text {
+}
+.popup_title {
+    left:160px;
+
+}
+.popup_title_h2 {
+    left:100px;
+}
+.input {
+    width: 90%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.popup_button {
+    height: 67px;
+    width: 95%;
+    left: 16px;
+    right: 16px;
+}
 
 
 }
