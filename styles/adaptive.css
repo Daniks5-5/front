@@ -683,7 +683,7 @@ padding-right: 80px;
 }
 /* блок с услугами*/
 .content {
-   
+   width: 100%;
     margin: 0% auto;
 }
 .service {
@@ -733,6 +733,7 @@ padding-right: 80px;
         margin: 0% auto;
     }
     .service {
+        width: 50%;
     margin-top: 80px;
     }
     .service-wrapper {
@@ -830,14 +831,12 @@ padding-right: 80px;
     width: 100%;
 
 }
-.popup-text {
-}
 .popup_title {
-    left:160px;
+    left:90px;
 
 }
 .popup_title_h2 {
-    left:100px;
+    left:30px;
 }
 .input {
     width: 90%;
