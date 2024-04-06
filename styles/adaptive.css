@@ -726,8 +726,7 @@ padding-right: 80px;
 }
     /* блок с отзывами  */
     .review-wrapper {
-        max-width: 500px;
-        min-width: 300px;
+        width: 100%;
         padding-left: 16px;
         padding-right: 13px;
         margin: 0% auto;
@@ -758,7 +757,7 @@ padding-right: 80px;
         margin-bottom: 80px;
     }
     .contacts{
-        width: 100%;
+        width: 80%;
         margin-left: 16px;
         right: 10px;
     }
@@ -791,6 +790,7 @@ padding-right: 80px;
     font-size: 35px;
     }
     .mail{
+        width: 80%;
     font-size: 35px;
     margin-bottom: 80px;
     }
