@@ -7,8 +7,26 @@
 }
 
 @media (max-width: 1149px) {
+/* меню */
+.menu {
+}
+.logo {
+}
+.text {
+    display: none;
+}
+.menu-text {
+}
+.burger-btn{
+    display: block;
+    width: 38px;
+    height: 22px;
+    background-color: red;
+}
+.text-end {
+}
    
-    
+    /* гланвый блок */
     .main {
        padding-left: 17px;
         margin: 0 auto;
