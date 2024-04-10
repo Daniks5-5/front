@@ -80,6 +80,34 @@ color: var(--text);
     z-index: 100;
 
 }
+.burger-img-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+.burger-img{
+    display: flex;
+    
+}
+.burger-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.burger-menu-text{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 25px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #000;
+text-decoration: none;
+
+}
 
 /*  главный блок и информация о компании */
 .main{
